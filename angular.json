@@ -14,6 +14,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/demo",
+            "baseHref": "/angular-app/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -33,6 +34,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/angular-app",
               "fileReplacements": [
                               {
                                 "replace": "src/environments/environment.ts",
