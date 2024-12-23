@@ -1,7 +1,7 @@
 {
   "name": "demo",
   "version": "0.0.0",
-  "homepage": "/react-app",
+  "homepage": "/e-commerce-demo",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
